@@ -1,7 +1,64 @@
-# multiple-disease-prediction-streamlit-app
-This repository contains the codebase for "Multiple Disease Prediction Streamlit App". The training notebooks &amp; the datasets are also provided in the respective folders. 
+# 🧠 Multiple Disease Prediction System using Machine Learning
 
-app.py is the streamlit app code.
-run the command "**pip install -r requirements.txt**" to install the required dependencies for the streamlit app.
+A professional-grade Streamlit web application that predicts the likelihood of three major health conditions using trained ML models:
 
-You may need to install additional libraries for running the jupyter notebooks.
+- 🩺 **Diabetes** (SVM Classifier)
+- ❤️ **Heart Disease** (Logistic Regression)
+- 🧠 **Parkinson’s Disease** (SVM Classifier)
+
+Built for simplicity, speed, and usability, this tool is perfect for healthcare demos, academic projects, and early screening support.
+
+---
+
+## 🚀 Features
+
+- ✅ User-friendly Streamlit interface with sidebar navigation
+- 🎙️ Voice command input for all medical fields
+- 📄 PDF medical report export with personalized health advice
+- 🌙 Clean dark-themed interface
+- ⚙️ Fast prediction using trained `.sav` models
+
+---
+
+## 🧬 Technologies Used
+
+| Tech Stack         | Description                      |
+|--------------------|----------------------------------|
+| Python             | Core programming language        |
+| Streamlit          | Frontend web framework           |
+| scikit-learn       | Model training & predictions     |
+| fpdf               | Lightweight PDF generation       |
+| speech_recognition | Voice input from mic to form     |
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Heart Disease Prediction  
+![Heart Disease](Screenshots/Screenshot%202025-07-25%20204932.png)
+
+### 🔹 Parkinson’s Disease Prediction  
+![Parkinsons](Screenshots/Screenshot%202025-07-25%20204938.png)
+
+### 🔹 Medical Report PDF Generation  
+![PDF Report](Screenshots/Screenshot%202025-07-25%20205224.png)
+
+### 🔹 Diabetes Prediction  
+![Diabetes](Screenshots/Screenshot%202025-07-25%20210636.png)
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── main.py                        # Streamlit app
+├── diabetes_model.sav            # Trained SVM model
+├── heart_model.sav               # Trained Logistic Regression model
+├── parkinsons_model.sav          # Trained SVM model
+├── Screenshots/                  # App UI screenshots
+│   ├── Screenshot 2025-07-25 204932.png
+│   ├── Screenshot 2025-07-25 204938.png
+│   ├── Screenshot 2025-07-25 205224.png
+│   └── Screenshot 2025-07-25 210636.png
+├── requirements.txt              # Dependencies
+└── README.md                     # Project documentation
