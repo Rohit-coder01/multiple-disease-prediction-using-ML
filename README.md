@@ -13,7 +13,6 @@ Built for simplicity, speed, and usability, this tool is perfect for healthcare 
 ## 🚀 Features
 
 - ✅ User-friendly Streamlit interface with sidebar navigation
-- 🎙️ Voice command input for all medical fields
 - 📄 PDF medical report export with personalized health advice
 - 🌙 Clean dark-themed interface
 - ⚙️ Fast prediction using trained `.sav` models
@@ -28,7 +27,6 @@ Built for simplicity, speed, and usability, this tool is perfect for healthcare 
 | Streamlit          | Frontend web framework           |
 | scikit-learn       | Model training & predictions     |
 | fpdf               | Lightweight PDF generation       |
-| speech_recognition | Voice input from mic to form     |
 
 ---
 
