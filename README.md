@@ -34,6 +34,9 @@ Built for simplicity, speed, and usability, this tool is perfect for healthcare 
 
 ## 📸 Screenshots
 
+### 🔹 Diabetes Prediction  
+![Diabetes](Screenshots/Screenshot%202025-07-25%20210636.png)
+
 ### 🔹 Heart Disease Prediction  
 ![Heart Disease](Screenshots/Screenshot%202025-07-25%20204932.png)
 
@@ -42,9 +45,6 @@ Built for simplicity, speed, and usability, this tool is perfect for healthcare 
 
 ### 🔹 Medical Report PDF Generation  
 ![PDF Report](Screenshots/Screenshot%202025-07-25%20205224.png)
-
-### 🔹 Diabetes Prediction  
-![Diabetes](Screenshots/Screenshot%202025-07-25%20210636.png)
 
 ---
 
